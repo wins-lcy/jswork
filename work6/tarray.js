@@ -5,6 +5,6 @@ for(var i in arr){
     if(arr[i] !=2){
         newArr[index] = arr[i];
         ++index;
-    }
+    } 
 }
 document.getElementById('transArray').innerHTML = newArr.toString()
