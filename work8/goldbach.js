@@ -51,7 +51,7 @@
 // }
         function pi(num){                                                         
     var sum = 0;                                                                  
-    for(var d=1;d<=num;d++){                                                       
+    for(var d=1;d<=num;d++){                                                                          //可以打代码~不要复制粘贴哦~07190612gyf                                                
         if (num % d==0){
             sum++;
         }
@@ -76,9 +76,7 @@ for(var b=2;b<odd;b++){
 }
 document.getElementById("goldbach").innerHTML = str;
 }
- //小兄弟
- //看见你了哦~
-//可以打代码~不要复制粘贴哦~07190612gyf
+
 
 
 
