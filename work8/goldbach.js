@@ -49,9 +49,9 @@
 //      document.write(odd+"可以拆分为质数"+b+"与"+c+'<br>');
 //     }
 // }
-        function pi(num){
-    var sum = 0;
-    for(var d=1;d<=num;d++){
+        function pi(num){                                                          //小兄弟
+    var sum = 0;                                                                   //看见你了哦~
+    for(var d=1;d<=num;d++){                                                       //可以打代码~不要复制粘贴哦~07190612gyf
         if (num % d==0){
             sum++;
         }
