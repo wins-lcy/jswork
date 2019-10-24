@@ -71,7 +71,7 @@ for(var b=2;b<odd;b++){
     if(pi(b) && pi(c) &&b<=c){
       //  document.write(odd+"可以拆分为质数"+b+"与"+c+'<br>');
 
-     str += (odd+"可以拆分为两个质数"+ b+"与"+c+'<br>');
+     str += (odd+"可以拆分为两个质数"+ b+"与"+c+"的和"+'<br>');
     }
 }
 document.getElementById("goldbach").innerHTML = str;
