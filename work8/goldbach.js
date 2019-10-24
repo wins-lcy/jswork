@@ -49,9 +49,9 @@
 //      document.write(odd+"可以拆分为质数"+b+"与"+c+'<br>');
 //     }
 // }
-        function pi(num){                                                          //小兄弟
-    var sum = 0;                                                                   //看见你了哦~
-    for(var d=1;d<=num;d++){                                                       //可以打代码~不要复制粘贴哦~07190612gyf
+        function pi(num){                                                         
+    var sum = 0;                                                                  
+    for(var d=1;d<=num;d++){                                                       
         if (num % d==0){
             sum++;
         }
@@ -76,9 +76,9 @@ for(var b=2;b<odd;b++){
 }
 document.getElementById("goldbach").innerHTML = str;
 }
-
-
-
+ //小兄弟
+ //看见你了哦~
+//可以打代码~不要复制粘贴哦~07190612gyf
 
 
 
