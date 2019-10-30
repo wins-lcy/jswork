@@ -23,8 +23,9 @@ function monkey(){
 }
 function stat(){
     let str = document.getElementById("str").value
+    str1 = str.toLocaleLowerCase();
     let obj={}
-    str.split('').reduce((pre, ok) => {
+    str1.split('').reduce((pre, ok) => {
         pre[ok] ? pre[ok]++ : pre[ok] = 1
         return obj
     }, {})
