@@ -21,13 +21,28 @@ function monkey(){
     }
     document.getElementById('monkeyking').innerText = monkey[0]
 }
+// function stat(){
+//     let str = document.getElementById("str").value
+//     str1 = str.toLocaleLowerCase();
+//     let obj={}
+//     str1.split('').reduce((pre, ok) => {
+//         pre[ok] ? pre[ok]++ : pre[ok] = 1
+//         return obj
+//     }, {})
+//   document.getElementById('result').innerText = JSON.stringify(obj)
+// }
 function stat(){
     let str = document.getElementById("str").value
-    str1 = str.toLocaleLowerCase();
-    let obj={}
-    str1.split('').reduce((pre, ok) => {
-        pre[ok] ? pre[ok]++ : pre[ok] = 1
-        return obj
-    }, {})
+    // str1 = str.toLocaleLowerCase();
+    // let obj={}
+    // str1.split('').reduce((pre, ok) => {
+    //     pre[ok] ? pre[ok]++ : pre[ok] = 1
+    //     return obj
+    // }, {})
+  let ok = str.split('').sort()
+  obj = ok.reduce((pre,item) =>{
+      pre[item] ? pre[item]++ : pre[item] = 1
+      return pre 
+  },{})
   document.getElementById('result').innerText = JSON.stringify(obj)
 }
