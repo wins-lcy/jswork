@@ -27,7 +27,7 @@ function monkey(){
 //     let obj={}
 //     str1.split('').reduce((pre, ok) => {
 //         pre[ok] ? pre[ok]++ : pre[ok] = 1
-//         return obj
+//         return obj 
 //     }, {})
 //   document.getElementById('result').innerText = JSON.stringify(obj)
 // }
